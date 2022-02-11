@@ -1,0 +1,201 @@
+/* /* ==================обнуление==================== */
+@import 'null.css';
+/* ==================шрифты======================= */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+body{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+.container {
+    width: 565px;
+    margin: 0 auto;
+}
+
+/* ======================вёрстка=================== */
+.header {
+    margin-bottom: 100px;
+}
+
+.navigation {
+    text-align: right;
+    padding: 13px 20px 0 0;
+    font-size: 13px;
+}
+.navigation__mail {
+    display: inline-block;
+
+    margin-right: 13px;
+    
+    
+}
+.navigation__mail--link {
+    opacity: 0.9;
+}
+.navigation__image {
+    display: inline-block;
+    margin-right: 25px;
+}
+.navigation__image--link {
+    opacity: 0.9;
+}
+.navigation__app {
+    background: url(../img/black-point.png)left top no-repeat,url(../img/black-point.png)left 6px top no-repeat,url(../img/black-point.png)left 12px top no-repeat,url(../img/black-point.png)left 6px no-repeat,url(../img/black-point.png)left 12px no-repeat,url(../img/black-point.png)6px 6px no-repeat,url(../img/black-point.png)12px 12px no-repeat,url(../img/black-point.png)12px 6px no-repeat,url(../img/black-point.png)6px 12px no-repeat;
+    display: inline-block;
+    height: 20px;
+    padding: 0 2px;
+    
+}
+.navigation__app--link {
+    line-height: 16px;
+    opacity: 0;
+}
+.navigation__account {
+    display: inline-block;
+    background: green;
+    padding: 7px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+
+.main__title {
+    padding-left: 135px;
+    font-size: 100px;
+    margin-bottom: 50px;
+}
+.blue {
+    color: blue;
+}
+.red {
+    color: red;
+}
+.orange {
+    color: orange;
+}
+.green {
+    color: green;
+}
+
+.main__search{
+    width: 565px;
+    height: 50px;
+    border-radius: 20px;
+    border: 1px solid #e0e0e0 ;
+    box-shadow: 0px 0px 5px 1px #e0e0e0;
+    background: url(../img/search.png)15px/ 18px no-repeat,url(../img/voice.png)right 15px top 10px/25px no-repeat;
+    margin-bottom: 30px;
+}
+.main__voice {
+    margin-left: 10px;
+    line-height: 16px;
+    opacity: 0;
+}
+input{
+    margin-left: 40px;
+    width: 85%;
+    border-radius: 20px;
+    outline:none;
+    font-size: 14px;
+    padding: 15px;
+}
+.bookmarks__block {
+    display: inline-block;
+    width: 60px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-right: 62px;
+}
+.bookmarks__title {
+    
+    width: 65px;
+    height: 20px;
+    margin: 0 auto;
+}
+.bookmarks__around  {
+    margin: 0 auto 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+}
+.youtube {
+    background-color: #e6e1e1;
+    background-image:url(../img/youtube.png);
+    background-repeat: no-repeat;
+    background-position: 13px 12px;
+}
+.instagram {
+    background-color: #e6e1e1;
+    background-image:url(../img/instagram.png);
+    background-repeat: no-repeat;
+    background-position: 13px 12px;
+}
+.facebook {
+    background-color: #e6e1e1;
+    background-image:url(../img/facebook.png);
+    background-repeat: no-repeat;
+    background-position: 13px 12px;
+    background-size: 25px ;
+}
+.vk {
+    background-color: #e6e1e1;
+    background-image:url(../img/vk.png);
+    background-repeat: no-repeat;
+    background-position: 13px 12px;
+    background-size: 24px ;
+}
+.hdrezka{
+    background-color: #e6e1e1;
+    background-image:url(../img/hdrezka.png);
+    background-repeat: no-repeat;
+    background-position: 13px 12px;
+    background-size: 24px ;
+}
+.flash {
+    background-color: #e6e1e1;
+    background-image:url(../img/flash.png);
+    background-repeat: no-repeat;
+    background-position: 13px 12px;
+    background-size: 24px ;
+}
+.html-book {
+    background-color: #e6e1e1;
+    background-image:url(../img/html.png);
+    background-repeat: no-repeat;
+    background-position: 13px 12px;
+    background-size: 24px ;
+}
+.fls-guru {
+    background-color: #e6e1e1;
+    background-image:url(../img/fls-guru.jpg);
+    background-repeat: no-repeat;
+    background-position: 13px 12px;
+    background-size: 24px ;
+}
+.live {
+    background-color: #e6e1e1;
+    background-image:url(../img/live.png);
+    background-repeat: no-repeat;
+    background-position: 13px 12px;
+    background-size: 24px ;
+}
+.github {
+    background-color: #e6e1e1;
+    background-image:url(../img/github.png);
+    background-repeat: no-repeat;
+    background-position: 13px 12px;
+    background-size: 24px ;
+}
+.margin {
+    margin-right: 0;
+}
+
+
+
